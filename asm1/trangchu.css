@@ -1,0 +1,406 @@
+body{
+    padding: 0;
+    margin: 0;
+    box-shadow: inset 0 0 13px rgb(109, 102, 88);
+    
+}
+header{
+
+    width: 1519px;
+    height: 332px;
+    position: relative;
+    top: 0;
+    box-sizing: border-box;
+    box-shadow: inset 0 0 60px rgba(93, 90, 90, 0.945);
+}
+header:hover video{
+    filter: brightness(5%);
+}
+header:hover .trongdong>img{
+    box-shadow:0 0 545px rgba(232, 102, 10, 0.984);
+    border-radius: 140px;
+}
+header:hover .trongdong p{
+    box-shadow: 0px 0px 150px rgb(199, 207, 58);
+    transform: scaleY(1.3);
+    background-color:  rgba(206, 215, 39, 0.12);
+    padding: 0px 490px;
+}
+.vd1{
+    position:absolute;
+    top: -128%;
+    bottom: 0px;
+    z-index: -2;
+    width: 100%;
+    
+    filter: brightness(80%);
+    
+
+}
+
+.lienHeCon{
+    margin: 0;
+ 
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: row;
+ 
+}
+.lienHeCon li{
+    margin: 0;
+    padding: 2px 30px;
+    list-style-type: none;
+    border: 1px solid whitesmoke;
+    border-bottom-left-radius:25px ;
+    
+    background-color: rgba(245, 245, 245, 0.27);
+}
+
+
+.lienHeCon li>img{
+    padding-left: 20px;
+   position:relative ;
+   top: 3px;
+}
+
+img.icon{
+    width: 20px;
+    height: 20px;
+}
+div.tieude{
+    margin-bottom: 5px;
+   
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+    color: aliceblue;
+    text-transform: uppercase;
+    font-variant: small-caps;
+    letter-spacing: 1px;
+    word-spacing: 8px;
+    text-shadow: 2px 2px 3px black;
+   
+}
+.trongdong{
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   flex-direction: column;
+}
+.trongdong>img{
+    width: 140px;
+   
+   
+}
+
+h1{
+    margin: 9px;
+}
+.trongdong p{
+   font-style: italic;
+   font-size: larger;
+  box-shadow:  0 0 15px rgba(208, 181, 31, 0.767);
+   margin-top: 5px;
+   margin: 10px;
+   padding: 0 20px;
+   border-radius: 6px;
+   color: rgb(248, 251, 255);
+   background-color: rgba(32, 28, 28, 0.273);
+    transition: all .61s;
+    z-index: 1;
+}
+
+
+
+nav{
+    background-color: rgba(29, 10, 10, 0.69);
+    box-shadow:  0 -5px 17px rgb(192, 167, 167);
+    position: sticky;
+    top: 0;
+    z-index: 3;
+    transition: all 5s;
+}
+
+.menu{
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    flex-flow: row ;
+}
+.menu li{
+    list-style-type: none;
+    margin: 15px 20px;
+    font-variant: small-caps;
+    transition: all .3s;
+    
+}
+.menu li:hover{
+    transform: scaleX(1.2);
+  
+}
+.menu a{
+    color:rgb(245, 245, 245);
+    text-decoration: none;
+    box-shadow: 0 0 1px gold;
+    border: 2px double rgba(120, 116, 104, 0.397);
+    
+    text-shadow: 2px 2px 4px rgba(8, 7, 7, 0.71);
+    padding:7px 25px;
+    font-weight: bold;
+    border-radius: 5px;
+    transition:all .5s  ;
+}
+.menu a:hover{
+    box-shadow: inset 0 0 15px white;
+    text-decoration: underline rgb(239, 236, 236);
+    color: aliceblue;
+
+    background-color: rgba(81, 79, 73, 0.397);
+   
+   
+}
+article.bd1{
+    background-image: url("../HinhAnh/anh-background-don-sac-cho-powerpoint_108908.png");
+    
+    height: 250px;
+    background-repeat: round;
+    background-size: 100px;
+    box-shadow: inset 0 0 200px black;
+    display: flex;
+    flex-wrap: nowrap;
+    
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+
+}
+ h2{
+    margin: 0;
+   background-color: rgba(198, 114, 24, 0.223);
+    text-align: center;
+    line-height: 40px;
+    text-transform: uppercase;
+    color: rgb(170, 135, 69);
+    text-shadow: 3px 3px rgb(116, 50, 13);
+    box-shadow: inset 0px 0px 15px rgb(166, 138, 138);
+}
+article.bd1>div{
+    display: flex;
+    width: 20%;
+    flex-flow: column;
+    transition: all 1s;
+}
+article.bd1>div:hover{
+ 
+    transform:scaleX(1.2);
+}
+article.bd1 p{
+    margin:2px  ;
+    padding: 2px ;
+    text-align: center;
+    font-weight: bold;
+    font-variant: small-caps;
+    font-size: 18px;
+    
+    box-shadow: 0 0 53px rgb(102, 70, 70);
+    border-radius: 14px;
+    position: relative;
+    top: 10px;
+    transition: all .3s ;
+}
+article.bd1 p:hover{
+    font-size: 25px ;
+}
+
+
+article .icon>img{
+    width: 150px;
+    height: 150px;
+    margin: 0 auto;
+    
+}
+div.bd2>img.a1{
+    position: sticky;
+    top: -200px;
+    width: 100%;
+    height: auto;
+    z-index: -1;
+    margin: 0;
+    padding: 0;
+  
+}
+
+div.bd2{
+    height: 1800px;
+    width: 100%;
+}
+div.gth img{
+    width: 350px;
+    border: 10px double saddlebrown;
+    box-shadow: 3px 3px 5px black;
+    margin-left: 60px;
+}
+div.gth{
+    position: absolute;
+    top :949px;
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    width: 100%;
+    height: 340px;
+    background-color: rgba(151, 144, 138, 0.999);
+    box-shadow: inset 0 0 150px rgba(0, 0, 0, 0.541);
+}
+.gth .gth1>h3,p.gth2{
+    margin: 0 30px;
+    width: 800px;
+    padding: 0 50px;
+    padding-right: 100px;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 30px;
+    font-weight: 400;
+    text-align: justify;
+    
+
+
+}
+.gth2{
+    border-right: 7px double black;
+}
+h3{
+    text-transform: uppercase;
+    text-shadow: 1px 1px 4px rgb(78, 25, 25);
+    font-weight: 700;
+    font-size: 35px;
+    font-weight: 900;
+    position: relative;
+    top:-25px;
+}
+div.thanhtich{
+    position: absolute;
+    top :1287px;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    height: 240px;
+   
+}
+.tt>h4{
+    color: rgb(237, 34, 12);
+    font-weight: 700;
+    font-size: 60px;
+    text-shadow: 2px 2px 2px black;
+    padding-bottom: 0;
+    margin: 20px auto;
+    text-align: center;
+}
+.tt>p{
+    text-align: center;
+    color: azure;
+    text-shadow: 0 0 15px rgb(255, 0, 0);
+    font-weight: 700;
+    font-size: larger;
+}
+div.tour{
+    position: absolute;
+
+    top :1527px;
+    width: 100%;
+    height: 600px;
+    background-color: rgba(128, 128, 128, 0.975);
+    box-shadow: inset 0 0 250px rgb(20, 9, 9);
+    padding: 0;
+}
+
+.tour>a{
+    text-decoration: none;
+    color: rgb(8, 6, 6);
+    text-align: justify;
+    width: 75%;
+    height: 30%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-wrap: nowrap; 
+    margin-top: 20px;
+    margin-left: 50px;
+  
+    box-sizing: border-box;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+.tour>a:hover img{
+    filter: none;
+}
+.tour>a:hover h5{
+    text-shadow: 5px 5px 10px white;
+}
+.tour img{
+    width: 300px;
+    margin:0px 30px;
+    box-shadow: 5px 5px 6px black;
+    border-radius: 20px;
+    filter: grayscale(90%);
+}
+
+.tour h5{
+    margin: 0;
+    margin-bottom: 2px;
+    font-variant: small-caps;
+    font-size: medium;
+}
+
+.tour a.mid{
+    float: right;
+    text-align: right;
+}
+footer{
+    background-image: url(../HinhAnh/footer.jpg);
+    background-size: cover;
+    width: 100%;
+    height: 340px;
+    position: relative;
+    top: 315px;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-around;
+    align-items: center;
+}
+footer img{
+    width: 200px;
+    margin:  0 auto;
+    margin-top: 70px;
+    box-shadow: 0 0 10px rgb(157, 157, 95);
+    border-radius: 100%;
+}
+footer div{
+    display: flex;
+    flex-flow: column;
+    justify-content: flex-end;
+}
+footer p {
+    font-weight: 900;
+    font-size: 35px;
+    text-align: center;
+    color: aliceblue;
+    text-shadow: -3px -3px 3px black;
+   font-variant: small-caps;
+
+}
+footer ul li ,footer ul li>a{
+    line-height: 50px;
+    font-weight: 700;
+    color: aliceblue;
+    text-decoration: none;
+}
+footer ul li>a:hover{
+    color: aqua;
+    font-size: medium;
+    list-style-type: none;
+}
+footer legend{
+    font-size: medium;
+    color: white;
+    text-shadow: 2px 2px 4px black;
+}
